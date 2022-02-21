@@ -43,7 +43,7 @@ export default function Home() {
             </div>
             <div className={Style.mainText}>
                 <h1>Hi, I'm <span style={firstNameStyle}>{info.firstName}</span> 👋🏻</h1>
-                <h2>I'm a {info.position}.</h2>
+                <h2>I'm an {info.position}.</h2>
                 <ul>
                     {createList()}
                 </ul>

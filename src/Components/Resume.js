@@ -1,5 +1,5 @@
 import React from 'react';
-import Style from './About.module.scss';
+import Style from './Resume.module.scss';
 import classNames from 'classnames';
 import {info, colors} from '../Info/Info';
 import gif from '../img/about.gif';
@@ -35,8 +35,8 @@ export default function About() {
                 </div>
             </div>
 
-            <div className = {Style.gif}>
-            <img src={gif} width = "1000px" alt="loading..." />
+            <div className = {Style.figma}>
+            <iframe width="80%" height="1700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FefGKO99tpIGBWXzkEfihnY%2FUX-Designer-Resume-Template-(Community)%3Fpage-id%3D802%253A72%26node-id%3D802%253A77%26viewport%3D418%252C48%252C0.58%26scaling%3Dcontain" allowfullscreen></iframe>
             </div>
 
             <div id="bot" className={classNames(Style.terminal, Style.shadowed)}>

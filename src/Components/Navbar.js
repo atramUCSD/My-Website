@@ -7,6 +7,7 @@ import {info} from '../Info/Info';
 
 export default function Navbar({darkMode, handleClick}) {
 
+    /* <Toggler darkMode={darkMode} handleClick={handleClick}/> */
 
     return (
         <nav>
@@ -15,7 +16,7 @@ export default function Navbar({darkMode, handleClick}) {
                 <li><NavLink exact activeClassName="current" to='/about'>About Me</NavLink></li>
                 <li><NavLink exact activeClassName="none" to='/'><span className={Style.logo}>{info.initials}</span></NavLink></li>
                 <li><NavLink exact activeClassName="current" to='/portfolio'>Portfolio</NavLink></li>
-                <Toggler darkMode={darkMode} handleClick={handleClick}/>
+                <li><NavLink exact activeClassName="current" to='/resume'>Resume</NavLink></li>
             </ul>
         </nav>
     )

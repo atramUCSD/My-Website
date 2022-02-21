@@ -1,5 +1,8 @@
 @import "../variables.modules";
 
+
+
+
 main {
   display: flex;
   align-items: center;
@@ -11,6 +14,26 @@ main {
   z-index: 1;
   width: 90vw;
   margin: 1rem auto;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+    }
+
+  .figma {
+    width: 800px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+
 
   @media only screen and (min-width: 1025px) {
     flex-direction: row;
@@ -40,7 +63,7 @@ main {
   }
 
   li {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 1.8;
   }
 
@@ -62,8 +85,8 @@ main {
 .avatar {
   width: 30vh;
   height: 30vh;
-  border-radius: 50%;
-  padding: 0.5rem;
+  border-radius: 30%;
+  padding: 1em;
   opacity: 0.9;
   transition: opacity 700ms;
   margin-bottom: 1rem;
@@ -74,23 +97,23 @@ main {
     margin-right: 3rem;
     margin-bottom: none;
   }
-
-  &:hover {
-    opacity: 1;
-  }
 }
 
 .mainImg {
-  filter: grayscale(1);
-  border-radius: 50%;
+  border-radius: 30%;
   width: 100%;
+}
+
+.mainText{
+  letter-spacing: 1px;
 }
 
 .socials {
   display: flex;
   justify-content: space-evenly;
-  font-size: 2.5rem;
+  font-size: 4.5rem;
   padding: 1rem 0;
+  
 
   a {
     color: $dark;
@@ -100,4 +123,5 @@ main {
   a:hover {
     color: grey;
   }
+
 }

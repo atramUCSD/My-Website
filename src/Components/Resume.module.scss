@@ -1,5 +1,12 @@
 @import "../variables.modules";
 
+
+.figma{
+    padding-left: 20rem;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
 .terminal {
   width: 80%;
   margin: 2rem auto 4rem auto;
@@ -8,18 +15,6 @@
   @media only screen and (min-width: 940px) {
     width: 50%;
     margin: 3rem auto 6rem auto;
-    animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-
-  @keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-     }
-    }
   }
 }
 
@@ -78,17 +73,4 @@
 
 .gif{
   padding-left: 29rem;
-  animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-
-  @keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-     }
-    }
 }
-
