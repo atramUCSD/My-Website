@@ -15,4 +15,4 @@ yarn.lock
 /.idea/
 package-lock.json
 package.json
-robots.txt
+yarn.lock
