@@ -9,8 +9,8 @@
     width: 50%;
     margin: 3rem auto 6rem auto;
     animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 
   @keyframes fadeInAnimation {
     0% {
@@ -77,10 +77,24 @@
 }
 
 .gif{
-  padding-left: 29rem;
+
+    /* For Mobile */
+    @media screen and (max-width: 540px) {
+    /* no need :D */
+    }
+
+    @media screen and (min-width: 990px) {
+      padding-left: 50vh;
+      width: 75%;
+    }
+  
+  
+  
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+
+
 
   @keyframes fadeInAnimation {
     0% {
