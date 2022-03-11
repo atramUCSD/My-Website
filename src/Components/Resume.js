@@ -39,6 +39,14 @@ export default function About() {
             <iframe width="80%" height="1700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FefGKO99tpIGBWXzkEfihnY%2FUX-Designer-Resume-Template-(Community)%3Fpage-id%3D802%253A72%26node-id%3D802%253A77%26viewport%3D418%252C48%252C0.58%26scaling%3Dcontain" allowfullscreen></iframe>
             </div>
 
+            <div className = {Style.pdf}>
+                <a href="https://drive.google.com/file/d/1Sa_39mNTDBAIEpVHwMuXA18gFlzD1N-3/view?usp=sharing" target="blank">Click Here to view Resume</a>
+            </div>
+
+            <div className = {Style.pdf}>
+                <a href="https://drive.google.com/file/d/1Sa_39mNTDBAIEpVHwMuXA18gFlzD1N-3/view?usp=sharing" target="blank">Click Here to view Text-Based Resume</a>
+            </div>
+
             <div id="bot" className={classNames(Style.terminal, Style.shadowed)}>
                 <div className={Style.topRow}>
                     <i className={classNames(iconClass, Style.red)}/>
