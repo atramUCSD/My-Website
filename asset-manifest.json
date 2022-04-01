@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/atramUCSD/My-Website.git/static/css/main.ba9f53cf.chunk.css",
+    "main.js": "/atramUCSD/My-Website.git/static/js/main.6338104a.chunk.js",
+    "main.js.map": "/atramUCSD/My-Website.git/static/js/main.6338104a.chunk.js.map",
+    "runtime-main.js": "/atramUCSD/My-Website.git/static/js/runtime-main.1263e290.js",
+    "runtime-main.js.map": "/atramUCSD/My-Website.git/static/js/runtime-main.1263e290.js.map",
+    "static/js/2.61a70d07.chunk.js": "/atramUCSD/My-Website.git/static/js/2.61a70d07.chunk.js",
+    "static/js/2.61a70d07.chunk.js.map": "/atramUCSD/My-Website.git/static/js/2.61a70d07.chunk.js.map",
+    "index.html": "/atramUCSD/My-Website.git/index.html",
+    "precache-manifest.d200b085552a3c658a749b6e49a12d62.js": "/atramUCSD/My-Website.git/precache-manifest.d200b085552a3c658a749b6e49a12d62.js",
+    "service-worker.js": "/atramUCSD/My-Website.git/service-worker.js",
+    "static/css/main.ba9f53cf.chunk.css.map": "/atramUCSD/My-Website.git/static/css/main.ba9f53cf.chunk.css.map",
+    "static/js/2.61a70d07.chunk.js.LICENSE.txt": "/atramUCSD/My-Website.git/static/js/2.61a70d07.chunk.js.LICENSE.txt",
+    "static/media/about.gif": "/atramUCSD/My-Website.git/static/media/about.43793773.gif",
+    "static/media/mock1.png": "/atramUCSD/My-Website.git/static/media/mock1.456d27d3.png",
+    "static/media/mock2.png": "/atramUCSD/My-Website.git/static/media/mock2.37e11540.png",
+    "static/media/mock3.png": "/atramUCSD/My-Website.git/static/media/mock3.6a736fcd.png",
+    "static/media/mock4.png": "/atramUCSD/My-Website.git/static/media/mock4.bd6a383d.png",
+    "static/media/self.png": "/atramUCSD/My-Website.git/static/media/self.4f2463af.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1263e290.js",
+    "static/js/2.61a70d07.chunk.js",
+    "static/css/main.ba9f53cf.chunk.css",
+    "static/js/main.6338104a.chunk.js"
+  ]
+}
