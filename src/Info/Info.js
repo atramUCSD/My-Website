@@ -50,22 +50,22 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
+            title: "CAPS Website Redesign",
             liveLink: "paytonjewell.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             sourceLink: "paytonjewell.dev", // this should be a link to the **repository** of the project, where the code is hosted. Github, Phabricator, etc.
         },
         {
-            title: "Project 2",
+            title: "ReCODE Health Community Tools",
             liveLink: "https://paytonjewell.dev",
             sourceLink: "https://paytonjewell.dev",
         },
         {
-            title: "Project 3",
+            title: "A New Sony Smart Remote",
             liveLink: "https://paytonjewell.dev",
             sourceLink: "https://paytonjewell.dev",
         },
         {
-            title: "Project 4",
+            title: "Digital Support Tools for Students in COVID",
             liveLink: "https://paytonjewell.dev",
             sourceLink: "https://paytonjewell.dev",
         },

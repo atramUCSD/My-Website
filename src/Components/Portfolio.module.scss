@@ -7,6 +7,7 @@
   margin-bottom: 2rem;
   h1 {
     font-size: 2rem;
+    text-align: center;
   }
   img {
     filter: drop-shadow(1rem 1rem 1rem rgba(0,0,0,0.4));
@@ -15,6 +16,7 @@
     grid-template-columns: repeat(2, auto);
     h1 {
       font-size: 2rem;
+      text-align: center;
     }
   }
 }

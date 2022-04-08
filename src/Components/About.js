@@ -28,8 +28,8 @@ export default function About() {
                     <i className={classNames(iconClass, Style.green)}/>
                 </div>
                 <div className={Style.window}>
-                    <p><span style={{color: colors[1]}}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} $</span> cat about{info.firstName.toLowerCase()} </p>
-                    <p><span style={{color: colors[1]}}>about{info.firstName.toLowerCase()} <span className={Style.green}>(master)</span> $ </span>
+                    <p><span style={{color: colors[1]}}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} $</span> cat about{info.firstName.charAt(0).toUpperCase()+info.firstName.slice(1)} </p>
+                    <p><span style={{color: colors[1]}}>about{info.firstName.charAt(0).toUpperCase()+info.firstName.slice(1)} <span className={Style.green}>(master)</span> $ </span>
                         {info.bio}
                     </p>
                 </div>

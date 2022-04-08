@@ -42,7 +42,7 @@ export default function About() {
             </div>
 
             <div className = {Style.pdf}>
-                <a href="https://drive.google.com/file/d/1Sa_39mNTDBAIEpVHwMuXA18gFlzD1N-3/view?usp=sharing" target="blank">Tap Here to view Text-Based Resume</a>
+                <a href="https://docs.google.com/document/d/1QIkCt1i35fjs468Z8s3m-_KlYnfRI7sTIH5jQgrnK4k/edit" target="blank">Tap Here to view Text-Based Resume</a>
             </div>
         </div>
     )
