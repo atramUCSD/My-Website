@@ -42,11 +42,11 @@ export const info = {
     
    resumeIntro:"",
     
-    hobbies: [
-        ["📖", "reading"], // Same as above, change the emojis to match / relate to your hobbies or interests.
-        ["🎭", "theater"], // You can also remove the emojis if you'd like, I just think they look cute :P
-        ["🎥", "movies"],
-        ["🌶", "spicy food"]
+    goals: [
+        ["📖", "Build better UI/UX Habits by reading related academic works/books"], // Same as above, change the emojis to match / relate to your hobbies or interests.
+        ["🧩", "Improve ability to problem solve by taking advantage of volunteerships and side projects"], // You can also remove the emojis if you'd like, I just think they look cute :P
+        ["📸", "Take more photos and videos with a focus to be more well rounded visually"],
+        ["💼", "Get my first full time job!"]
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
