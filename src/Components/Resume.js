@@ -5,12 +5,12 @@ import {info, colors} from '../Info/Info';
 export default function About() {
     const iconClass = "fa fa-circle";
 
-    let hobbies = info.hobbies;
+    let goals = info.goals;
 
     function createList() {
         let results = [];
-        for(let i = 0; i < hobbies.length; i ++) {
-            let value = hobbies[i];
+        for(let i = 0; i < goals.length; i ++) {
+            let value = goals[i];
             results.push(
                 <li><span aria-label="emoji" role="img" className={Style.emoji}>{value[0]}</span> {value[1]}</li>
             )
@@ -26,8 +26,8 @@ export default function About() {
                     <i className={classNames(iconClass, Style.green)}/>
                 </div>
                 <div className={Style.window}>
-                    <p><span style={{color: colors[1]}}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} $</span> cat about{info.firstName.toLowerCase()} </p>
-                    <p><span style={{color: colors[1]}}>about{info.firstName.toLowerCase()} <span className={Style.green}>(master)</span> $ </span>
+                    <p><span style={{color: colors[1]}}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} $</span> cat about{info.firstName.charAt(0).toUpperCase()+info.firstName.slice(1)} </p>
+                    <p><span style={{color: colors[1]}}>about{info.firstName.charAt(0).toUpperCase()+info.firstName.slice(1)} <span className={Style.green}>(master)</span> $ </span>
                         {info.bio}
                     </p>
                 </div>
@@ -43,21 +43,6 @@ export default function About() {
 
             <div className = {Style.pdf}>
                 <a href="https://drive.google.com/file/d/1Sa_39mNTDBAIEpVHwMuXA18gFlzD1N-3/view?usp=sharing" target="blank">Tap Here to view Text-Based Resume</a>
-            </div>
-
-            <div id="bot" className={classNames(Style.terminal, Style.shadowed)}>
-                <div className={Style.topRow}>
-                    <i className={classNames(iconClass, Style.red)}/>
-                    <i className={classNames(iconClass, Style.amber)}/>
-                    <i className={classNames(iconClass, Style.green)}/>
-                </div>
-                <div className={Style.window}>
-                    <p><span style={{color: colors[1]}}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} $</span> cd hobbies/interests</p>
-                    <p><span style={{color: colors[1]}}>hobbies/interests <span className={Style.green}>(master)</span> $</span> ls</p>
-                    <ul>
-                        {createList()}
-                    </ul>
-                </div>
             </div>
         </div>
     )

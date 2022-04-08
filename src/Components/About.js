@@ -7,12 +7,12 @@ import gif from '../img/about.gif';
 export default function About() {
     const iconClass = "fa fa-circle";
 
-    let hobbies = info.hobbies;
+    let goals = info.goals;
 
     function createList() {
         let results = [];
-        for(let i = 0; i < hobbies.length; i ++) {
-            let value = hobbies[i];
+        for(let i = 0; i < goals.length; i ++) {
+            let value = goals[i];
             results.push(
                 <li><span aria-label="emoji" role="img" className={Style.emoji}>{value[0]}</span> {value[1]}</li>
             )
@@ -46,8 +46,8 @@ export default function About() {
                     <i className={classNames(iconClass, Style.green)}/>
                 </div>
                 <div className={Style.window}>
-                    <p><span style={{color: colors[1]}}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} $</span> cd hobbies/interests</p>
-                    <p><span style={{color: colors[1]}}>hobbies/interests <span className={Style.green}>(master)</span> $</span> ls</p>
+                    <p><span style={{color: colors[1]}}>{info.firstName.toLowerCase()}{info.lastName.toLowerCase()} $</span> cd goals</p>
+                    <p><span style={{color: colors[1]}}>goals <span className={Style.green}>(master)</span> $</span> ls</p>
                     <ul>
                         {createList()}
                     </ul>
