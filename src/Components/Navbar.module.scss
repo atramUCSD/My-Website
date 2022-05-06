@@ -2,14 +2,14 @@
 
 .navList {
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(3, auto);
   max-width: 90%;
   justify-items: center;
   align-items: center;
   border-bottom: 1px solid #e4e4e4;
   text-transform: lowercase;
   margin: 0 auto;
-  font-size: 1rem;
+  font-size: 1.4rem;
 
   @media only screen and (min-width: 940px) {
     max-width: 60%;

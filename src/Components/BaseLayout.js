@@ -4,7 +4,6 @@ import classNames from 'classnames';
 import Navbar from "./Navbar";
 import {Switch, Route} from 'react-router-dom';
 import Home from "./Home";
-import About from "./About";
 import Portfolio from "./Portfolio";
 import Resume from "./Resume";
 
@@ -30,7 +29,6 @@ export default function BaseLayout() {
 const Main = () => (
     <Switch>
         <Route exact path='/' component={Home}></Route>
-        <Route exact path='/about' component={About}></Route>
         <Route exact path='/portfolio' component={Portfolio}></Route>
         <Route exact path='/resume' component={Resume}></Route>
     </Switch>

@@ -5,7 +5,7 @@ import self from '../img/self.png';
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
 
-export let colors = ["rgb(139, 158, 233)", "rgb(13, 81, 171)"];
+export let colors = ["rgb(255,255,255)", "rgb(2, 11, 80)"];
 /*
 I highly recommend using a gradient generator like https://paytonjewell.github.io/gradient-generator/ to generate a pair of colors that you like.
 These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
@@ -32,7 +32,7 @@ export const info = {
         ["🏖️", "Located in California, San Diego and San Marcos"],
         ["💼", "Currently a Student Researcher @ UCSD Design Lab and UI/UX Intern @ ReCODE Health"],
         ["✉️", "Primary: atram@ucsd.edu | Secondary: atramwebui@gmail.com"],
-        ["📱", <a class = "number" href="tel:5554280940"> Phone Number: 760-500-6934 </a>]
+        ["📱", <a class = "number" href="tel:7605006934"> Phone Number: 760-500-6934 </a>]
     ],
     socials: [
         ["https://github.com/", facebookIcon()], // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon! // Just change the links so that they lead to your social profiles.
@@ -96,6 +96,10 @@ function twitterIcon() {
 
 function gmailIcon() {
     return <i className='fa fa-google' aria-hidden="true"/>
+}
+
+function phoneIcon(){
+    return <i className='fa fa-phone' aria-hidden="true"/>
 }
 
 
