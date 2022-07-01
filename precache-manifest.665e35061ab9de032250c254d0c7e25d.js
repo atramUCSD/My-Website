@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b6afb2a9b9f27b44a32a329f9103f340",
+    "revision": "78b0c718da15e7739e5d12a4c28a2767",
     "url": "/My-Website/index.html"
   },
   {
-    "revision": "ecd938eea94599a3b8bf",
-    "url": "/My-Website/static/css/main.1c96e85d.chunk.css"
+    "revision": "281a5918294673a98386",
+    "url": "/My-Website/static/css/main.9b4bbf5f.chunk.css"
   },
   {
-    "revision": "a0905128ff5c032cd384",
-    "url": "/My-Website/static/js/2.8476942d.chunk.js"
+    "revision": "8b355c9511313a25b4db",
+    "url": "/My-Website/static/js/2.6500732c.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/My-Website/static/js/2.8476942d.chunk.js.LICENSE.txt"
+    "url": "/My-Website/static/js/2.6500732c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ecd938eea94599a3b8bf",
-    "url": "/My-Website/static/js/main.56d61eb5.chunk.js"
+    "revision": "281a5918294673a98386",
+    "url": "/My-Website/static/js/main.130fec56.chunk.js"
   },
   {
     "revision": "935bc4f6a744f609a655",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c16e9d9db93ca2627745c7c1e665b43a",
     "url": "/My-Website/static/media/CAPS-HelpCenter.c16e9d9d.png"
+  },
+  {
+    "revision": "5d2d22ddbd191e40a9264a956aaa6069",
+    "url": "/My-Website/static/media/Caps_Redesign_2022.5d2d22dd.jpg"
   },
   {
     "revision": "62c82cea0a51430b5975c2b4d1ffc800",
@@ -46,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d0047de48d2f926cdc6cc6198549ee9c",
     "url": "/My-Website/static/media/Lowering-Work-Load.d0047de4.JPG"
+  },
+  {
+    "revision": "f5949576fd0dccd13d5796848604ae3d",
+    "url": "/My-Website/static/media/ReCODE_Portfolio_Image.f5949576.png"
   },
   {
     "revision": "9de07ddead0da772547ec5ab4bd9e114",
@@ -76,10 +84,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/My-Website/static/media/before-service-changes.1432394f.png"
   },
   {
-    "revision": "d43e495f145c2e8fc2d691c922d07320",
-    "url": "/My-Website/static/media/code-snippet-accordian.d43e495f.png"
-  },
-  {
     "revision": "ebd1b52ea0d6d34ae74edd0bfd3856a4",
     "url": "/My-Website/static/media/discourse.ebd1b52e.JPG"
   },
@@ -90,14 +94,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "97b8a6e1d2001b04593c0557d2badf89",
     "url": "/My-Website/static/media/low-fidelity-home.97b8a6e1.png"
-  },
-  {
-    "revision": "456d27d30afacf5ef9c2d04e25452c99",
-    "url": "/My-Website/static/media/mock1.456d27d3.png"
-  },
-  {
-    "revision": "37e11540fe7357463bd40d3effb35da1",
-    "url": "/My-Website/static/media/mock2.37e11540.png"
   },
   {
     "revision": "6a736fcd570ebcf9699f8d5e9f949f60",
