@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/My-Website/static/css/main.9b4bbf5f.chunk.css",
-    "main.js": "/My-Website/static/js/main.130fec56.chunk.js",
-    "main.js.map": "/My-Website/static/js/main.130fec56.chunk.js.map",
+    "main.css": "/My-Website/static/css/main.e4966aa8.chunk.css",
+    "main.js": "/My-Website/static/js/main.8b1b857b.chunk.js",
+    "main.js.map": "/My-Website/static/js/main.8b1b857b.chunk.js.map",
     "runtime-main.js": "/My-Website/static/js/runtime-main.ddd1ce47.js",
     "runtime-main.js.map": "/My-Website/static/js/runtime-main.ddd1ce47.js.map",
-    "static/js/2.6500732c.chunk.js": "/My-Website/static/js/2.6500732c.chunk.js",
-    "static/js/2.6500732c.chunk.js.map": "/My-Website/static/js/2.6500732c.chunk.js.map",
+    "static/js/2.13cdcd45.chunk.js": "/My-Website/static/js/2.13cdcd45.chunk.js",
+    "static/js/2.13cdcd45.chunk.js.map": "/My-Website/static/js/2.13cdcd45.chunk.js.map",
     "index.html": "/My-Website/index.html",
-    "precache-manifest.665e35061ab9de032250c254d0c7e25d.js": "/My-Website/precache-manifest.665e35061ab9de032250c254d0c7e25d.js",
+    "precache-manifest.672a834540028d7f2f796ac9f79d2d8d.js": "/My-Website/precache-manifest.672a834540028d7f2f796ac9f79d2d8d.js",
     "service-worker.js": "/My-Website/service-worker.js",
-    "static/css/main.9b4bbf5f.chunk.css.map": "/My-Website/static/css/main.9b4bbf5f.chunk.css.map",
-    "static/js/2.6500732c.chunk.js.LICENSE.txt": "/My-Website/static/js/2.6500732c.chunk.js.LICENSE.txt",
+    "static/css/main.e4966aa8.chunk.css.map": "/My-Website/static/css/main.e4966aa8.chunk.css.map",
+    "static/js/2.13cdcd45.chunk.js.LICENSE.txt": "/My-Website/static/js/2.13cdcd45.chunk.js.LICENSE.txt",
     "static/media/CAPS-HelpCenter.png": "/My-Website/static/media/CAPS-HelpCenter.c16e9d9d.png",
     "static/media/Caps_Redesign_2022.jpg": "/My-Website/static/media/Caps_Redesign_2022.5d2d22dd.jpg",
     "static/media/Community-Forums.png": "/My-Website/static/media/Community-Forums.62c82cea.png",
@@ -24,7 +24,6 @@
     "static/media/User-Flow.jpg": "/My-Website/static/media/User-Flow.e4796cbc.jpg",
     "static/media/User-Personas.jpg": "/My-Website/static/media/User-Personas.23134904.jpg",
     "static/media/What-is-ReCODE.JPG": "/My-Website/static/media/What-is-ReCODE.71e923b5.JPG",
-    "static/media/about.gif": "/My-Website/static/media/about.43793773.gif",
     "static/media/accordian.gif": "/My-Website/static/media/accordian.9acf8685.gif",
     "static/media/before-service-changes.png": "/My-Website/static/media/before-service-changes.1432394f.png",
     "static/media/discourse.JPG": "/My-Website/static/media/discourse.ebd1b52e.JPG",
@@ -41,8 +40,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ddd1ce47.js",
-    "static/js/2.6500732c.chunk.js",
-    "static/css/main.9b4bbf5f.chunk.css",
-    "static/js/main.130fec56.chunk.js"
+    "static/js/2.13cdcd45.chunk.js",
+    "static/css/main.e4966aa8.chunk.css",
+    "static/js/main.8b1b857b.chunk.js"
   ]
 }

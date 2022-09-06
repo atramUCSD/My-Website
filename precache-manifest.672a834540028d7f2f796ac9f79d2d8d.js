@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "78b0c718da15e7739e5d12a4c28a2767",
+    "revision": "fff0a057735ebd4b6c2453a6a8be390e",
     "url": "/My-Website/index.html"
   },
   {
-    "revision": "281a5918294673a98386",
-    "url": "/My-Website/static/css/main.9b4bbf5f.chunk.css"
+    "revision": "b18bbcdd5946feb8cb30",
+    "url": "/My-Website/static/css/main.e4966aa8.chunk.css"
   },
   {
-    "revision": "8b355c9511313a25b4db",
-    "url": "/My-Website/static/js/2.6500732c.chunk.js"
+    "revision": "1bef8d5241f7bb57be17",
+    "url": "/My-Website/static/js/2.13cdcd45.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/My-Website/static/js/2.6500732c.chunk.js.LICENSE.txt"
+    "url": "/My-Website/static/js/2.13cdcd45.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "281a5918294673a98386",
-    "url": "/My-Website/static/js/main.130fec56.chunk.js"
+    "revision": "b18bbcdd5946feb8cb30",
+    "url": "/My-Website/static/js/main.8b1b857b.chunk.js"
   },
   {
     "revision": "935bc4f6a744f609a655",
@@ -70,10 +70,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "71e923b5d6c52655b4a8f1791ec1ec34",
     "url": "/My-Website/static/media/What-is-ReCODE.71e923b5.JPG"
-  },
-  {
-    "revision": "437937736b873f0b02739465c6ca5e16",
-    "url": "/My-Website/static/media/about.43793773.gif"
   },
   {
     "revision": "9acf8685057178a60c64858d26fb830d",
